@@ -1,6 +1,6 @@
 {
   "name": "motsercl",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Modbus TCP Srever/Client and RTU slave/master (TCP to RTU-over-tcp Gateway) implemented in node.js",
   "main": "motsercl.js",
   "dependencies": {
