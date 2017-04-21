@@ -1,0 +1,11 @@
+{
+  "listen":[
+    {"port": 502, "type":"tcp"},
+    {"port": 4001, "type":"rtu"}
+  ],
+  "servers":[
+    {"host":"192.168.0.134", "port":4001, "slaveMin":0, "slaveMax":30, "offset":0, "type":"rtu", "responseEndTimeout":500},
+    {"host":"192.168.0.134", "port":4002, "slaveMin":31, "slaveMax":60, "offset":-30, "type":"rtu", "responseEndTimeout":500},
+    {"host":"192.168.0.13", "port":502, "slaveMin":61, "slaveMax":90, "offset":10, "type":"tcp", "responseTimeout":2000}
+  ]
+}
