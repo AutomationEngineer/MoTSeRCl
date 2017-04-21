@@ -8,7 +8,7 @@ Modbus TCP to RTU Gateway implemented in node.js
 
 ### Procedure
 - install node.js (https://nodejs.org/dist/latest-v6.x/) according to their instructions
-- download zip (https://github.com/AutomationEngineer/MoTSeRCl/archive/MoTSeRCl_v0.0.2.zip) and unpack it to the folder of your choice
+- download zip (https://github.com/AutomationEngineer/MoTSeRCl/archive/MoTSeRCl-v0.0.2.zip) and unpack it to the folder of your choice
 - adopt cfg.json to your environment
 
 ## Running
