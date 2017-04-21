@@ -160,7 +160,7 @@ RtuClient.prototype.request = function(data, callback) {
         default:
             console.log(new Date().toISOString() + context.namePad + ' unsupported function code: ' + data[1]);
             if (typeof callback === "function") {
-                callback(Buffer.from([data[0], data[1] + 0x80, 01])); //Return exception illegal function
+                callback(Buffer.from([data[0], data[1] + 0x80, 0x01])); //Return exception illegal function
             }
             return;
     }
